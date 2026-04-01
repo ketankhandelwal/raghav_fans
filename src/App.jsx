@@ -17,6 +17,8 @@ import CTABanner from './components/CTABanner'
 import FAQ from './components/FAQ'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import LifestyleGallery from './components/LifestyleGallery'
+import BrandsStrip from './components/BrandsStrip'
 
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
@@ -30,7 +32,9 @@ function HomePage({ showTop, onScrollTop }) {
       <Navbar />
       <Hero />
       <Marquee />
+      <BrandsStrip />
       <Features />
+      <LifestyleGallery />
       <Stats />
       <About />
       <Products />
